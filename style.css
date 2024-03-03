@@ -29,3 +29,9 @@ table td, th{
     justify-content: center;
     gap: 20px;
 }
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
