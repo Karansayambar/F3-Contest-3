@@ -11,10 +11,10 @@
 <body>
   <div class="padd">
     <input type="text" id="searchInput" placeholder="Search">
-    <button onclick="search()">Search</button>
-    <button onclick="sort('market_cap')">Sort by Market Cap</button>
-    <button onclick="sort('market_cap_change')">Sort by % Change</button>
-</div>
+    <button id="search" onclick="searchItem()">Search</button>
+    <button id="MarketCapital" onclick="sort('market_cap')">Sort By Mkt Cap</button>
+    <button id="Percentage" onclick="sort('percentage')">Sort by percentage</button>
+  </div>
 
   <div id="container"></div>
     <script src="./script.js"></script>
